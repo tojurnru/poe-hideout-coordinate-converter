@@ -2,14 +2,6 @@
 
 const fs = require('fs');
 
-const {
-  HIDEOUT_FILE,
-  NEW_HIDEOUT_NAME,
-  NEW_HIDEOUT_HASH,
-  DIFF_X,
-  DIFF_Y
-} = require('./config.json');
-
 function splitLine(line) {
   const idx1 = line.lastIndexOf(':') + 1;
   const idx2 = line.lastIndexOf(',');
@@ -22,6 +14,17 @@ function splitLine(line) {
 }
 
 try {
+
+  // read config file
+
+  const configFileData = fs.readFileSync("./config.json");
+  const {
+    HIDEOUT_FILE,
+    NEW_HIDEOUT_NAME,
+    NEW_HIDEOUT_HASH,
+    DIFF_X,
+    DIFF_Y
+  } = JSON.parse(configFileData);
 
   // read input file
 
