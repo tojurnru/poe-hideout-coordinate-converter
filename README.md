@@ -10,7 +10,7 @@ Once you calculated x and y coordinate difference, put them into `config.json`
 
 ## Config.json Settings
 - `HIDEOUT_FILE`: the original file you'd like to copy
-- `NEW_HIDEOUT_NAME`: the hideout name you'd like to copy to
+- `NEW_HIDEOUT_NAME`: new hideout you'd like to copy to (e.g.: Celestial Nebula Hideout)
 - `NEW_HIDEOUT_HASH`: hash of the new hideout (refer `*.hideout` file for the hash value)
 - `DIFF_X`: difference of x coordinate
 - `DIFF_Y`: difference of y coordinate
