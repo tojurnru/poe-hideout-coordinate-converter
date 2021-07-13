@@ -4,7 +4,7 @@ Copy and Convert Hideout Decoration Coordinates To Different Hideout Base
 
 Before you use this tool, please refer to the following link on how to obtain the coordinate difference between two hideouts:
 - [English (Google Translate)](https://translate.google.com/translate?sl=zh-CN&tl=en&u=https://forum.gamer.com.tw/Co.php?bsn%3D18966%26sn%3D549600%26subbsn%3D13%26bPage%3D0)
-- [Chinese (Original)](https://forum.gamer.com.tw/Co.php?bsn=18966&sn=549600&subbsn=13&bPage=0)
+- [Chinese (Original)](https://forum.gamer.com.tw/C.php?bsn=18966&snA=124827&page=1&gothis=549600#549600)
 
 Once you calculated x and y coordinate difference, put them into `config.json`
 
