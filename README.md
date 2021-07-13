@@ -17,3 +17,7 @@ Once you calculated x and y coordinate difference, put them into `config.json`
 
 ## Download
 https://github.com/tojurnru/poe-hideout-coordinate-converter/releases
+
+## Troubleshoot
+
+The executable outputs log into console. In case nothing happens after you run, try running it again via Command Prompt or Terminal.
