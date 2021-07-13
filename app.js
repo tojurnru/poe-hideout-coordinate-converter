@@ -28,7 +28,7 @@ try {
 
   // read input file
 
-  const data = fs.readFileSync(HIDEOUT_FILE, 'utf8');
+  const data = fs.readFileSync(HIDEOUT_FILE);
 
   // convert data
 
@@ -73,11 +73,6 @@ try {
   const outputFile = `${filePrefix} (${NEW_HIDEOUT_NAME}).hideout`;
   const outputData = lines.join('\n');
   fs.writeFileSync(outputFile, outputData);
-  
-  // // for debugging only
-  // const jsonFile = `${file}-updated.json`;
-  // const jsonData = lines.join('\n');
-  // fs.writeFileSync(jsonFile, jsonData);
 
   console.log('done');
 
