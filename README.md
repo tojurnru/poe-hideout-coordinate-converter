@@ -9,9 +9,9 @@ Before you use this tool, please refer to the following link on how to obtain th
 Once you calculated x and y coordinate difference, put them into `config.json`
 
 ## Config.json Settings
-- `HIDEOUT_FILE`: the original file you'd like to copy
-- `NEW_HIDEOUT_NAME`: new hideout you'd like to copy to (e.g.: Celestial Nebula Hideout)
-- `NEW_HIDEOUT_HASH`: hash of the new hideout (refer `*.hideout` file for the hash value)
+- `HIDEOUT_FILE`: the original file you'd like to copy (file name e.g.: `your-hideout-name.hideout`)
+- `NEW_HIDEOUT_NAME`: new hideout base you'd like to copy to (e.g.: `Celestial Nebula Hideout`)
+- `NEW_HIDEOUT_HASH`: hash of the new hideout base (refer `*.hideout` file for the hash value)
 - `DIFF_X`: difference of x coordinate
 - `DIFF_Y`: difference of y coordinate
 
