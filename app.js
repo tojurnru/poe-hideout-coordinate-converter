@@ -17,7 +17,7 @@ try {
 
   // read config file
 
-  const configFileData = fs.readFileSync("./config.json");
+  const configFileData = fs.readFileSync('./config.json', 'utf-8');
   const {
     HIDEOUT_FILE,
     NEW_HIDEOUT_NAME,
@@ -28,7 +28,7 @@ try {
 
   // read input file
 
-  const data = fs.readFileSync(HIDEOUT_FILE);
+  const data = fs.readFileSync(HIDEOUT_FILE, 'utf-8');
 
   // convert data
 
